@@ -32,7 +32,7 @@ jobs:
           # This is your default github token
         with:
         # All of these fields are required except hashnode_event
-          hashnode_host: "kaustubhrai.hashnode.dev" # Your hashnode host name
+          hashnode_host: "ammarmirza.hashnode.dev" # Your hashnode host name
           hashnode_token: ${{ secrets.HASHNODE_TOKEN }} # Your hashnode secret key
           added_files: ${{steps.changed-files.outputs.added_files}}
           modified_files: ${{steps.changed-files.outputs.modified_files}}
